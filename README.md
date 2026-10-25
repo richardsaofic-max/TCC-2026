@@ -238,22 +238,6 @@ simulador/
 | `requirements.txt` | Dependências Python |
 | `tests/` | Verificações do modelo e da aplicação |
 
-Não inclua no repositório as pastas `.venv/`, `.deps/` ou `__pycache__/`, nem arquivos temporários. Elas contêm dependências ou arquivos gerados durante o uso.
-
-## Verificação
-
-Execute os testes a partir da pasta do projeto, com as dependências instaladas:
-
-```powershell
-.venv\Scripts\python.exe -m unittest discover -s tests -v
-```
-
-No Linux ou macOS:
-
-```bash
-.venv/bin/python -m unittest discover -s tests -v
-```
-
 ## Autor
 
 Richard Silva de Abreu — Engenharia de Controle e Automação.
