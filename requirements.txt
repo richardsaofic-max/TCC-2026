@@ -1,0 +1,6 @@
+dash>=3.0,<5
+plotly>=6,<8
+numpy>=2.0,<3
+scipy>=1.14,<2
+scikit-fuzzy==0.5.0
+pygad>=3.4,<4

@@ -1,0 +1,34 @@
+/* Dash 4 controls. Legacy Dash 3 controls are styled in style.css. */
+:root {
+  --Dash-Text-Strong: #34434e;
+  --Dash-Text-Weak: #626a70;
+  --Dash-Text-Primary: #254b6c;
+  --Dash-Text-Disabled: #8b9498;
+  --Dash-Fill-Interactive-Strong: #254b6c;
+  --Dash-Fill-Interactive-Weak: #fff;
+  --Dash-Fill-Inverse-Strong: #fff;
+  --Dash-Fill-Disabled: #e5e8e3;
+  --Dash-Fill-Primary-Hover: #e7edf0;
+  --Dash-Fill-Primary-Active: #d6e1e8;
+  --Dash-Stroke-Strong: #bac2c6;
+  --Dash-Stroke-Weak: #d9dcd9;
+  --Dash-Shading-Strong: rgba(0,0,0,.12);
+  --Dash-Shading-Weak: rgba(0,0,0,.04);
+}
+.dash-dropdown-focus-target { width: 1px !important; max-width: 1px !important; }
+.dash-dropdown { background: #fff !important; color: #34434e !important; border-color: #bac2c6 !important; min-width: 0; width: 100%; border-radius: 2px !important; font-size: 12px; }
+.dash-dropdown-value, .dash-dropdown-value-item { color: #34434e !important; }
+.dash-dropdown-content, .dash-dropdown-options, .dash-dropdown-option { background: #fff !important; color: #34434e !important; }
+.dash-input-container { background: #fff !important; border-color: #bac2c6 !important; border-radius: 2px !important; min-width: 0; }
+.dash-input-stepper { display: none !important; }
+.dash-input-container input { width: 100% !important; min-width: 0 !important; }
+.dash-slider-container { width: 100%; display: flex; }
+.dash-slider-wrapper { flex: 1; width: 100%; min-width: 0; }
+.dash-range-slider-input { display: none !important; }
+.dash-slider-track { background: #d6dcd8 !important; }
+.dash-slider-range { background: #254b6c !important; }
+.dash-slider-thumb { background: #fff !important; border-color: #254b6c !important; }
+.controller-check label { color: #434d54 !important; }
+.transport-controls > button { flex-shrink: 0; }
+.transport-controls .dash-dropdown { width: 78px; margin-left: auto; }
+.js-plotly-plot .plotly .modebar { background: transparent !important; }
